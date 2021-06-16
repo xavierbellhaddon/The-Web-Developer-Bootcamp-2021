@@ -9,10 +9,24 @@
 <body>
     <h1>Forms Demo</h1>
     <form action="">
-        <input type="text" placeholder="username">
-        <input type="password" placeholder="password">
-        <input type="color">
-        <input type="number" placeholder="enter a number">
+        <div>
+            <label for="username">Enter a username:</label>
+            <input id="username" type="text" placeholder="username">
+        </div>
+        <div>
+            <label for="password">Enter a password:</label>
+            <input id="password" type="password" placeholder="password">
+        </div>
+        <div>
+            <label for="color">Choose a color:</label>
+            <input id="color" type="color">
+        </div>
+        <div>
+            <label>
+                Enter a number:
+                <input id="number" type="number" placeholder="enter a number">
+            </label>
+        </div>
     </form>
 </body>
 </html>
