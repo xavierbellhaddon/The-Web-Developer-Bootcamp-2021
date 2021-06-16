@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms Demo</title>
 </head>
+
 <body>
     <h1>Forms Demo</h1>
-    <form action="">
+    <form action="/idk">
         <div>
             <label for="username">Enter a username:</label>
             <input id="username" type="text" placeholder="username">
@@ -17,6 +19,7 @@
             <label for="password">Enter a password:</label>
             <input id="password" type="password" placeholder="password">
         </div>
+        <button type="button">Regular button (won't submit)</button>
         <div>
             <label for="color">Choose a color:</label>
             <input id="color" type="color">
@@ -27,6 +30,11 @@
                 <input id="number" type="number" placeholder="enter a number">
             </label>
         </div>
+        <button>Submit</button>
+        <input type="submit" value="Click me!">
     </form>
+    <hr>
+    <button>Not inside form</button>
 </body>
+
 </html>
