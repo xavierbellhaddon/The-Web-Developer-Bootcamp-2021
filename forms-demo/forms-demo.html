@@ -82,6 +82,22 @@
             <textarea name="requests" id="requests" cols="30" rows="10" placeholder="Type something here"></textarea>
         </div>
         <button>Submit</button>
+        <h2>Validations Demo</h2>
+        <form action="/dummy">
+            <div>
+                <label for="first">Enter first name:</label>
+                <input type="text" name="first" id="first" required>
+            </div>
+            <div>
+                <label for="username">Enter username:</label>
+                <input type="text" name="username" id="username" minlength="5" maxlength="20" required>
+            </div>
+            <div>
+                <input type="email" required>
+                <input type="url" required>
+            </div>
+            <button>Submit</button>
+        </form>
     </form>
 </body>
 
