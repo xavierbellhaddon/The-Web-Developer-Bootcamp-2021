@@ -92,6 +92,11 @@ p::selection {
     background-color: #fcbf49;
 }
 
-h1, h2 {
-    color: yellow;
+button:hover {
+    background-color: olive;
+    font-size: 10px;
+}
+
+button {
+    background-color: magenta !important;
 }
