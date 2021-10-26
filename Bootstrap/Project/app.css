@@ -1,5 +1,5 @@
 body {
-    background-color: #f5d9df;
+    background-color: #f5d9d5;
     font-family: "Nunito", sans-serif;
 }
 
@@ -17,6 +17,7 @@ body {
 }
 
 .content {
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 
@@ -47,9 +48,16 @@ body {
     font-size: 4rem;
 }
 
-@media (max-width: 1370px) {
+.navbar.scrolled {
+     background-color: #dec0de;
+}
+
+@media (max-width: 1200px) {
     #headingGroup h1 {
         font-weight: 100;
         font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
     }
 }
